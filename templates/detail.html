@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ g.name }} — Glasses Catalogue{% endblock %}
+
+{% block content %}
+  <p><a class="back" href="{{ url_for('index') }}">← Back to catalogue</a></p>
+
+  <article class="detail">
+    <img class="detail-img"
+         src="{{ url_for('static', filename='img/' ~ g.image) }}"
+         alt="{{ g.name }}">
+    <div class="detail-body">
+      <h1>{{ g.name }}</h1>
+      <p class="detail-cat">{{ g.category }}</p>
+      <p class="detail-color">Colour: {{ g.color }}</p>
+      <p class="detail-price">${{ '%.2f'|format(g.price) }}</p>
+      <p class="detail-desc">{{ g.description }}</p>
+      <a class="btn" href="{{ url_for('contact_view') }}">Enquire about this pair</a>
+    </div>
+  </article>
+{% endblock %}

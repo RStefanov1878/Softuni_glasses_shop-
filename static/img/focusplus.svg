@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="FocusPlus Blue">
+  <rect width="240" height="120" fill="#f4f6f8"/>
+  <line x1="22" y1="50" x2="72" y2="58" stroke="#26324f" stroke-width="6" stroke-linecap="round"/>
+  <line x1="218" y1="50" x2="168" y2="58" stroke="#26324f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M108 60 q12 -9 24 0" fill="none" stroke="#26324f" stroke-width="6"/>
+  <rect x="58" y="46" width="52" height="36" rx="10" fill="#cfe0f7" fill-opacity="0.8" stroke="#26324f" stroke-width="6"/>
+  <rect x="130" y="46" width="52" height="36" rx="10" fill="#cfe0f7" fill-opacity="0.8" stroke="#26324f" stroke-width="6"/>
+</svg>

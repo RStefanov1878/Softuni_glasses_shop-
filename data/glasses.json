@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Aviator Classic",
+    "category": "sunglasses",
+    "price": 89.99,
+    "color": "Gold / Green",
+    "description": "Timeless teardrop lenses in a lightweight gold metal frame with full UV400 protection.",
+    "image": "aviator.svg"
+  },
+  {
+    "id": 2,
+    "name": "Wayfarer Bold",
+    "category": "sunglasses",
+    "price": 79.5,
+    "color": "Matte Black",
+    "description": "Iconic bold acetate frames that suit almost every face shape. Polarised lenses.",
+    "image": "wayfarer.svg"
+  },
+  {
+    "id": 3,
+    "name": "Retro Round",
+    "category": "sunglasses",
+    "price": 69.0,
+    "color": "Tortoise",
+    "description": "Vintage-inspired round metal frames with gradient tinted lenses.",
+    "image": "round.svg"
+  },
+  {
+    "id": 4,
+    "name": "Reader Slim +1.5",
+    "category": "reading",
+    "price": 39.99,
+    "color": "Matte Black",
+    "description": "Lightweight slimline readers with +1.5 magnification and spring hinges.",
+    "image": "reader-slim.svg"
+  },
+  {
+    "id": 5,
+    "name": "Reader Bold +2.0",
+    "category": "reading",
+    "price": 44.99,
+    "color": "Burgundy",
+    "description": "Bold acetate readers with +2.0 magnification for comfortable close-up focus.",
+    "image": "reader-bold.svg"
+  },
+  {
+    "id": 6,
+    "name": "ScreenGuard Blue",
+    "category": "blue-light",
+    "price": 54.99,
+    "color": "Clear / Grey",
+    "description": "Blue-light filtering lenses that cut screen glare during long working days.",
+    "image": "screenguard.svg"
+  },
+  {
+    "id": 7,
+    "name": "FocusPlus Blue",
+    "category": "blue-light",
+    "price": 59.99,
+    "color": "Navy",
+    "description": "Anti-glare blue-light glasses with an anti-reflective coating for sharp focus.",
+    "image": "focusplus.svg"
+  }
+]

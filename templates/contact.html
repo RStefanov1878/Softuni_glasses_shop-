@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Contact — Glasses Catalogue{% endblock %}
+
+{% block content %}
+  <h1>Contact us</h1>
+
+  {% if sent %}
+    <p class="alert success">Thanks! Your message has been sent.</p>
+  {% endif %}
+
+  <form class="contact-form" method="post" action="{{ url_for('contact_view') }}" novalidate>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" value="{{ form.get('name', '') }}">
+    {% if errors.get('name') %}<span class="error">{{ errors['name'] }}</span>{% endif %}
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" value="{{ form.get('email', '') }}">
+    {% if errors.get('email') %}<span class="error">{{ errors['email'] }}</span>{% endif %}
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5">{{ form.get('message', '') }}</textarea>
+    {% if errors.get('message') %}<span class="error">{{ errors['message'] }}</span>{% endif %}
+
+    <button type="submit">Send message</button>
+  </form>
+{% endblock %}

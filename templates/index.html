@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Catalogue — Glasses Catalogue{% endblock %}
+
+{% block content %}
+  <h1>Our Glasses</h1>
+
+  <nav class="filters">
+    <a class="filter {% if not selected %}active{% endif %}"
+       href="{{ url_for('index') }}">All</a>
+    {% for cat in categories %}
+      <a class="filter {% if cat == selected %}active{% endif %}"
+         href="{{ url_for('index', category=cat) }}">{{ cat }}</a>
+    {% endfor %}
+  </nav>
+
+  {% if glasses %}
+    <ul class="grid">
+      {% for g in glasses %}
+        <li class="card">
+          <a class="card-link" href="{{ url_for('detail', glasses_id=g.id) }}">
+            <img class="card-img"
+                 src="{{ url_for('static', filename='img/' ~ g.image) }}"
+                 alt="{{ g.name }}">
+            <h2 class="card-name">{{ g.name }}</h2>
+          </a>
+          <p class="card-cat">{{ g.category }}</p>
+          <p class="card-price">${{ '%.2f'|format(g.price) }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">No glasses found in this category.</p>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="Reader Slim">
+  <rect width="240" height="120" fill="#f4f6f8"/>
+  <line x1="24" y1="52" x2="72" y2="58" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="216" y1="52" x2="168" y2="58" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M110 58 q10 -7 20 0" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="62" y="46" width="48" height="30" rx="7" fill="#dbeafe" fill-opacity="0.6" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="130" y="46" width="48" height="30" rx="7" fill="#dbeafe" fill-opacity="0.6" stroke="#1a1a1a" stroke-width="4"/>
+  <text x="120" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#1a1a1a">+1.5</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="Aviator Classic">
+  <rect width="240" height="120" fill="#f4f6f8"/>
+  <line x1="22" y1="50" x2="72" y2="58" stroke="#c9a24b" stroke-width="6" stroke-linecap="round"/>
+  <line x1="218" y1="50" x2="168" y2="58" stroke="#c9a24b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M110 60 q10 -8 20 0" fill="none" stroke="#c9a24b" stroke-width="6"/>
+  <path d="M62 52 h44 q4 0 3 6 l-6 22 q-2 8 -19 8 q-17 0 -22 -12 l-4 -18 q-1 -6 4 -6z" fill="#8fae8f" fill-opacity="0.7" stroke="#c9a24b" stroke-width="6"/>
+  <path d="M134 52 h44 q5 0 4 6 l-4 18 q-5 12 -22 12 q-17 0 -19 -8 l-6 -22 q-1 -6 3 -6z" fill="#8fae8f" fill-opacity="0.7" stroke="#c9a24b" stroke-width="6"/>
+</svg>
